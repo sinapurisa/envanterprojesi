@@ -9,7 +9,6 @@ def read_inventory(filename):
 
 
 def analyze_inventory(inventory):
-    package_count = len(inventory)
     items_dict = {}
     for package in inventory:
         inside = package.split(",")
@@ -22,11 +21,15 @@ def analyze_inventory(inventory):
                 items_dict[item] += count
             else:
                 items_dict[item] = count
-    return package_count, items_dict
+    return items_dict
 
 
 envanter = read_inventory("kolilistesi.txt")
-koli_sayisi, icerik = analyze_inventory(envanter)
+icerik = analyze_inventory(envanter)
+koli_sayisi = 0
+for key in icerik.keys():
+    if key.endswith("kolisi"):
+        koli_sayisi += icerik[key]
 print("Totalde", koli_sayisi, "koli var.")
 print("Bu koliler içerisinde şunlar bulunuyor:")
 for key in icerik.keys():
