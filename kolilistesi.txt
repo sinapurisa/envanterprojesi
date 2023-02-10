@@ -1,8 +1,8 @@
-giyim,5 mont,6 kazak,20 çorap
-erkek giyim,10 pantalon,5 tişört
-elektronik,3 ısıtıcı
-bebek çocuk malzemesi,300 bez,10 biberon
-bebek çocuk malzemesi,150 bez,15 biberon
-battaniye,10 yorgan,4 battaniye
-battaniye,3 yorgan
-kadın giyim,5 gömlek,2 pijama
+1 giyim kolisi,5 mont,6 kazak,20 çorap
+1 erkek giyim kolisi,10 pantalon,5 tişört
+1 elektronik kolisi,3 ısıtıcı
+1 bebek çocuk malzemesi kolisi,300 bez,10 biberon
+1 bebek çocuk malzemesi kolisi,150 bez,15 biberon
+1 battaniye kolisi,10 yorgan,4 battaniye
+1 battaniye kolisi,3 yorgan
+1 kadın giyim kolisi,5 gömlek,2 pijama
