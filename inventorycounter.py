@@ -24,7 +24,7 @@ def analyze_inventory(inventory):
     return items_dict
 
 
-envanter = read_inventory("kolilistesi.txt")
+envanter = read_inventory("kolilistesimain.txt")
 icerik = analyze_inventory(envanter)
 koli_sayisi = 0
 for key in icerik.keys():

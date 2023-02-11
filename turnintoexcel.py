@@ -34,7 +34,7 @@ def get_items_dict(listoflistoftup):
                 d_value += 1
     return d
 
-packages, package_content_list = read_inventory("kolilistesi.txt")
+packages, package_content_list = read_inventory("kolilistesimain.txt")
 package_content_as_tup = tupilize_content(package_content_list)
 items_dict = get_items_dict(package_content_as_tup)
 
